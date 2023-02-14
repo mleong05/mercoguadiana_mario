@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Mercoguadiana - Contacto</title>
+    <meta name="Author" content="Alberto del Pozo Magánez">
+    <meta name="Description" content="Formulario de contacto directo conMercoguadiana">
+    <meta name="Keywords" content="Mercoguadiana, Contacto, Formulario, Empresa, Mario, Alberto">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/formulario.css">
+</head>
+<body>
+    <nav>
+        <img loading="lazy" src="../img/topleftlogo.png" onclick="location.href = '../index.html'" style="float: left; height: 50px; width: auto; margin-left: 100px; margin-right: 100px;" alt="Mercoguadiana logo">
+        <a href="./historia.html">Historia de la empresa</a>
+        <a href="./trabajos.html">Nuestros trabajos</a>
+    </nav>
+    <h1>Formulario de Contacto</h1>
+    <div>
+        <form action="/action_page.php" method="get">
+            <label for="fname" style="margin-top: 5000px;">Nombre y Apellidos</label><br>
+            <input type="text" id="fname" name="fname" ><br><br>
+            <label for="lname">Provincia</label><br>
+            <input type="text" id="fname" name="fname" ><br><br>
+            <label for="fname">DNI</label><br>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="Fecha">Fecha:</label><br>
+            <input type="date" id="Fecha" name="Fecha"><br><br>
+            <label for="Email">Email</label><br>
+            <input type="Email" name="Email" placeholder="Ej.: usuario@gmail.com"><br><br>
+            <p>Elige el lugar de mercoguadiana:</p>
+                <input type="radio" id="don Benito" name="fav_language" value="don Benito">
+                <label for="html">Don Benito</label><br>
+                <input type="radio" id="Navalvillar de pela" name="fav_language" value="Navalvillar de pela">
+                <label for="css">Navalvillar de pela</label><br>
+                <input type="radio" id="Guareña" name="fav_language" value="Guareña">       
+                <label for="javascript">Guareña</label><br><br>
+            <span>Selecciona tu género:</span><br><br>
+                <input type="radio" id="hombre" name="sel_genero" value="hombre">
+                <label for="hombre">Hombre</label>
+                <input type="radio" id="mujer" name="sel_genero" value="mujer">
+                <label for="mujer">Mujer</label>
+                <input type="radio" id="otro" name="sel_genero" value="otro">
+                <label for="mujer">Otro</label><br><br>
+            <label for="fname">Comentario</label><br>
+            <input type="text" id="fname" name="Comentario"><br><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+</html>
